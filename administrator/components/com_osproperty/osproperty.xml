@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.8.1" method="upgrade">
+	<name>Osproperty</name>
+	<author>Dang Thuc Dam</author>
+	<creationDate>2.7.2012</creationDate>
+	<copyright>(C) 2006-2015 Ossolution.</copyright>
+	<license>Commons GNU GPL</license>
+	<authorEmail>damdt@joomservices.com</authorEmail>
+	<authorUrl>www.joomdonation.com</authorUrl>
+	<version>2.8.1</version>
+  <description><![CDATA[
+	<br />
+	<table>
+		<tr>
+			<td class="sectionname" valign="top">OS Property: The leading Real-estate application for Joomla!</td>
+		</tr>
+		<tr>
+			<td><br />
+			Now that installation is complete. Please setup configuration, manage categories, manage companies, agents and  define the 
+			property types, states, countries, bedroom numbers, bathrooms number and price increments for the search/select lists, and enter 
+			your property listing details. Specially, Osproperty has the extra fields function that you can define the extra fields and apply them into the properties in case you need. <br /><br /><strong>Sincerely, <BR /> Ossolution</strong></td>
+		</tr>
+		</table>
+  ]]></description>
+  <scriptfile>install.osproperty.php</scriptfile>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/install.osproperty.sql</file>
+    </sql>
+  </install>  
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/uninstall.osproperty.sql</file>
+    </sql>
+  </uninstall>
+  <languages folder="component/languages">
+      <language tag="en-GB">en-GB/en-GB.com_osproperty.ini</language>
+	  <language tag="de-DE">de-DE/de-DE.com_osproperty.ini</language>
+	  <language tag="el-GR">el-GR/el-GR.com_osproperty.ini</language>
+	  <language tag="es-ES">es-ES/es-ES.com_osproperty.ini</language>
+	  <language tag="fr-FR">fr-FR/fr-FR.com_osproperty.ini</language>
+	  <language tag="it-IT">it-IT/it-IT.com_osproperty.ini</language>
+	  <language tag="nl-NL">nl-NL/nl-NL.com_osproperty.ini</language>
+	  <language tag="pt-PT">pt-PT/pt-PT.com_osproperty.ini</language>
+	  <language tag="ru-RU">ru-RU/ru-RU.com_osproperty.ini</language>
+	  <language tag="tr-TR">tr-TR/tr-TR.com_osproperty.ini</language>
+  </languages>
+  <files folder="component">
+    <folder>backup</folder>  
+    <folder>captcha</folder>
+    <folder>classes</folder>
+    <folder>views</folder>
+    <folder>document</folder>
+    <folder>helpers</folder>
+    <folder>images</folder>
+    <folder>js</folder>
+    <folder>style</folder>	
+    <folder>templates</folder>
+    <filename>index.html</filename>
+    <filename>osproperty.php</filename>
+	<filename>version.txt</filename>
+	<filename>changelog.txt</filename>
+	<filename>router.php</filename>
+	<filename>cron.php</filename>
+  </files>
+
+  <administration>
+    <menu img="components/com_osproperty/images/home.png">Ossolution Property</menu>
+	<submenu>
+		<menu img="components/com_osproperty/images/assets/home.png" link="option=com_osproperty">Control Panel</menu>
+		<menu img="components/com_osproperty/images/assets/home.png" link="option=com_osproperty&amp;task=configuration_list">Configuration</menu>
+		<menu img="components/com_osproperty/images/assets/category.png" link="option=com_osproperty&amp;task=categories_list">Manage Categories</menu>
+		<menu img="components/com_osproperty/images/assets/home.png" link="option=com_osproperty&amp;task=properties_list">Manage Properties</menu>
+		<menu img="components/com_osproperty/images/assets/company.png" link="option=com_osproperty&amp;task=companies_list">Manage Companies</menu>
+		<menu img="components/com_osproperty/images/assets/agent.png" link="option=com_osproperty&amp;task=agent_list">Manage Agents</menu>
+		<menu img="components/com_osproperty/images/assets/type.png" link="option=com_osproperty&amp;task=type_list">Manage Property types</menu>
+		<menu img="components/com_osproperty/images/assets/convenience.png" link="option=com_osproperty&amp;task=amenities_list">Manage Convenience</menu>
+		<menu img="components/com_osproperty/images/assets/price.png" link="option=com_osproperty&amp;task=pricegroup_list">Manage Price list</menu>
+		<menu img="components/com_osproperty/images/assets/group.png" link="option=com_osproperty&amp;task=fieldgroup_list">Manage Extra field groups</menu>
+		<menu img="components/com_osproperty/images/assets/extrafield.png" link="option=com_osproperty&amp;task=extrafield_list">Manage Extra fields</menu>
+		<menu img="components/com_osproperty/images/assets/email.png" link="option=com_osproperty&amp;task=email_list">Manage Email forms</menu>
+		<menu img="components/com_osproperty/images/assets/comment.png" link="option=com_osproperty&amp;task=comment_list">Manage Comments</menu>
+		<menu img="components/com_osproperty/images/assets/theme.png" link="option=com_osproperty&amp;task=theme_list">Manage Themes</menu>
+		<menu img="components/com_osproperty/images/assets/state.png" link="option=com_osproperty&amp;task=state_list">Manage States</menu>
+		<menu img="components/com_osproperty/images/assets/city.png" link="option=com_osproperty&amp;task=city_list">Manage Cities</menu>
+		<menu img="components/com_osproperty/images/assets/backup.png" link="option=com_osproperty&amp;task=properties_backup">Backup database</menu>
+		<menu img="components/com_osproperty/images/assets/restore.png" link="option=com_osproperty&amp;task=properties_restore">Restore database</menu>
+	</submenu>
+	<languages folder="admin/languages">
+      <language tag="en-GB">en-GB/en-GB.com_osproperty.ini</language>
+	  <language tag="en-GB">en-GB/en-GB.com_osproperty.sys.ini</language>
+	  <language tag="de-DE">de-DE/de-DE.com_osproperty.ini</language>
+	  <language tag="de-DE">de-DE/de-DE.com_osproperty.sys.ini</language>
+	  <language tag="el-GR">el-GR/el-GR.com_osproperty.ini</language>
+	  <language tag="el-GR">el-GR/el-GR.com_osproperty.sys.ini</language>
+	  <language tag="es-ES">es-ES/es-ES.com_osproperty.ini</language>
+	  <language tag="es-ES">es-ES/es-ES.com_osproperty.sys.ini</language>
+	  <language tag="fr-FR">fr-FR/fr-FR.com_osproperty.ini</language>
+	  <language tag="fr-FR">fr-FR/fr-FR.com_osproperty.sys.ini</language>
+	  <language tag="it-IT">it-IT/it-IT.com_osproperty.ini</language>
+	  <language tag="it-IT">it-IT/it-IT.com_osproperty.sys.ini</language>
+	  <language tag="nl-NL">nl-NL/nl-NL.com_osproperty.ini</language>
+	  <language tag="nl-NL">nl-NL/nl-NL.com_osproperty.sys.ini</language>
+	  <language tag="pt-PT">pt-PT/pt-PT.com_osproperty.ini</language>
+	  <language tag="pt-PT">pt-PT/pt-PT.com_osproperty.sys.ini</language>
+	  <language tag="ru-RU">ru-RU/ru-RU.com_osproperty.ini</language>
+	  <language tag="ru-RU">ru-RU/ru-RU.com_osproperty.sys.ini</language>
+	  <language tag="tr-TR">tr-TR/tr-TR.com_osproperty.ini</language>
+	  <language tag="tr-TR">tr-TR/tr-TR.com_osproperty.sys.ini</language>
+    </languages>
+    <files folder="admin">    
+        <folder>classes</folder>  
+        <folder>tables</folder>
+        <folder>helpers</folder>
+		<folder>images</folder>
+		<folder>elements</folder>
+		<folder>sql</folder>
+		<folder>fields</folder>
+        <filename>index.html</filename> 
+		<filename>install.osproperty.sql</filename>
+		<filename>uninstall.osproperty.sql</filename>
+        <filename>osproperty.php</filename>
+		<filename>access.xml</filename>
+		<filename>config.xml</filename>
+    </files>
+	<files folder="admin/sql">
+    <!-- database script -->
+      <filename>install.osproperty.sql</filename>
+      <filename>uninstall.osproperty.sql</filename>
+    </files>
+  </administration>
+</extension >
