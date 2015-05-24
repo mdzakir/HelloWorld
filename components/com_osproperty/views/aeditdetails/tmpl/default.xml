@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Agent/Owner: Edit agent/owner details">
+		<message>
+			<![CDATA[Edit agent/owner information.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Agent: Edit agent/owner details</name>
+		<description>Edit agent/owner information layout.</description>
+	</state>
+</metadata>

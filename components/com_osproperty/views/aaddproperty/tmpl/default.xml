@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Agent/Owner: Add property">
+		<message>
+			<![CDATA[Add property.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Agent: Add property</name>
+		<description>Add property layout.</description>
+	</state>
+</metadata>

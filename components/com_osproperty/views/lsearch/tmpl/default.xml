@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Layout: Locator Search">
+		<message>
+			<![CDATA[Search.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Layout: Locator Search</name>
+		<description>Locator Search layout.</description>
+	</state>
+</metadata>

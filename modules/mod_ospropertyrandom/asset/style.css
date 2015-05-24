@@ -1,0 +1,79 @@
+@CHARSET "ISO-8859-1";
+
+.element_property {
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #DDD;
+	margin-left:0px !important;
+}
+
+.img-polaroid {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 4px;
+}
+
+.price_label{
+	font-weight:bold;
+	color:gray;
+	font-size:11px;
+}
+
+.category_label{
+
+}
+.properttype_label{
+
+}
+.address_value{
+	font-size:11px;
+	color:#3E2827;
+}
+
+.icon_module{
+	border:1px solid #CCC !important;
+}
+
+.desc_module{
+	color:gray;
+	font-size:11px;
+}
+
+.description_property1{
+	font-size:11px;
+}
+
+.image_property{
+	position:relative;
+}
+
+.image_property .randompropertyfeatured{
+	position:absolute;
+	top:5px;
+	left:5px;
+	color:white;
+	font-size: 13px;
+    font-weight: 400;
+    padding: 6px 10px;
+    position: absolute;
+    text-transform: uppercase;
+	background:none repeat scroll 0 0 #ff0000;
+}
+
+.image_property .randompropertysold{
+	position:absolute;
+	top:5px;
+	right:5px;
+	color:white;
+	font-size: 13px;
+    font-weight: 400;
+    padding: 6px 10px;
+    position: absolute;
+    text-transform: uppercase;
+	background:none repeat scroll 0 0 #CCC;
+}
+
+.element_title h4{
+	line-height:27px;
+}

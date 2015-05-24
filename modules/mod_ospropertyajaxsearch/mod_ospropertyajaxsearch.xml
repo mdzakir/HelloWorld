@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.5.0" method="upgrade">
+    <name>OsProperty Ajax Search</name>
+    <author>Ossolution</author>
+	<authorUrl>http://www.joomdonation.com</authorUrl>
+    <version>2.0.9</version>
+	<creationDate>2011-10-29</creationDate>
+    <description>A module allow customer can search properties through Ajax method. You need also to extension component osproperty. This module is included in the package.</description>
+    <files>
+        <filename>mod_ospropertyajaxsearch.xml</filename>
+        <filename module="mod_ospropertyajaxsearch">mod_ospropertyajaxsearch.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<folder>lib</folder>
+    </files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_ospropertyajaxsearch.ini</language>		
+	</languages>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="number_item"
+					type="text"
+					default="3"
+					label="Properties per search item"
+					description="Number properties per search item(category, property type, country) at the dropdown result" class="input-mini"/>
+				<field
+					name="number_characters"
+					type="text"
+					default="2"
+					label="Min characters to search"
+					description="Number characters that user should type if they want the search system work" class="input-mini"/>
+				<field
+					name="ordering"
+					type="list"
+					default="title"
+					label="Search according by"
+					description="Please select 'Search according by' field. The ajax search module will search properties through this field">
+					<option
+						value="category">Categories</option>
+					<option
+						value="type">Property types</option>
+					<option
+						value="country">Country</option>
+				</field>
+				<field
+					name="mouse_scroll"
+					type="radio"
+					default="0"
+					label="Enable mouse scrolling"
+					description="Enable mouse scrolling" class="btn-group">
+					<option
+						value="1">JSHOW</option>
+					<option
+						value="0">JHIDE</option>
+				</field>
+				<field
+					name="show_introtext"
+					type="radio"
+					default="0"
+					label="Show small description"
+					description="Show small description in the Search result" class="btn-group">
+					<option
+						value="1">JSHOW</option>
+					<option
+						value="0">JHIDE</option>
+				</field>
+				<field
+					name="show_address"
+					type="radio"
+					default="0"
+					label="Show address"
+					description="Show address in the Search result" class="btn-group">
+					<option
+						value="1">JSHOW</option>
+					<option
+						value="0">JHIDE</option>
+				</field>
+				<field
+					name="show_cost"
+					type="radio"
+					default="0"
+					label="Show price"
+					description="Show property's price in the search result" class="btn-group">
+					<option
+						value="1">JSHOW</option>
+					<option
+						value="0">JHIDE</option>
+				</field>
+				<field
+					name="show_agent"
+					type="radio"
+					default="0"
+					label="Show agent/owner"
+					description="Show agent/ owner name in the search result" class="btn-group">
+					<option
+						value="1">JSHOW</option>
+					<option
+						value="0">JHIDE</option>
+				</field>
+				<field
+					name="orderby"
+					type="list"
+					default="listdate"
+					label="Order by"
+					description="Sort result by">
+					<option	value="pro_name">Property title</option>
+					<option value="price">Property price</option>
+					<option value="listdate">Listed date</option>
+				</field>
+				<field
+					name="ordertype"
+					type="list"
+					default="desc"
+					label="Order type"
+					description="" >
+					<option
+						value="asc">Ascending</option>
+					<option
+						value="desc">Descending</option>
+				</field>
+
+				<field
+					name="search_name"
+					type="radio"
+					default="1"
+					label="Search property title"
+					description="Do you want the search module to search through property title" class="btn-group">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="search_desc"
+					type="radio"
+					default="1"
+					label="Search property desc"
+					description="Do you want the search module to search through property description" class="btn-group">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="search_address"
+					type="radio"
+					default="1"
+					label="Search property address"
+					description="Do you want the search module to search through property's address" class="btn-group">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="search_agent"
+					type="radio"
+					default="1"
+					label="Search agent/owner name"
+					description="Do you want the search module to search through agent/ owner name" class="btn-group">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="form_width"
+					type="text"
+					default="170"
+					label="Search area width (px)"
+					description="Search area width (px)" class="input-mini" />
+				
+				<field
+					name="result_width"
+					type="text"
+					default="250"
+					label="Search result width (px)"
+					description="Search result width (px)" class="input-mini" />
+
+				<field
+					name="element_height"
+					type="text"
+					default="67"
+					label="Result element height (px)"
+					description="Result element height (px)" class="input-mini" />
+
+				<field
+					name="use_ssl"
+					type="radio"
+					default="0"
+					label="Use SSL"
+					description="Are you using Ajax search module in SSL mode" class="btn-group">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

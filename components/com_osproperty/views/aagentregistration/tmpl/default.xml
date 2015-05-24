@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Agent/Owner: Agent/Owner registtration">
+		<message>
+			<![CDATA[Agent/Owner registration.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Agent: Agent/Owner registration</name>
+		<description>Agent/Owner registration layout.</description>
+	</state>
+</metadata>

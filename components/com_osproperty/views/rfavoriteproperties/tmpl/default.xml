@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Registered: Favorite properties">
+		<message>
+			<![CDATA[Favorite properties.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Registered: Favorite properties</name>
+		<description>Favorite properties layout.</description>
+	</state>
+</metadata>

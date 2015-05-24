@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<extension version="2.8.1" type="module" method="upgrade">
+	<name>OS-Property Category Menu</name>
+	<author>Dang Thuc Dam</author>
+	<creationDate>Nov 2011</creationDate>
+	<copyright>Copyright (C) 2011 Ossolution Co.LTD. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>damdt@joomservices.com</authorEmail>
+	<authorUrl>www.joomservices.com</authorUrl>
+	<version>2.8.1</version>
+	<description>Displays a list of OS Property categories and/or sub-categories in menu style.</description>
+	<files>
+		<filename module="mod_oscategorymenu">mod_oscategorymenu.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+        <folder>tmpl</folder>
+		<folder>css</folder>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default=""
+			label="Module Class Suffix"
+			description="A suffix to be applied to the css class of the module (table.moduletable or div.moduletable), this allows individual module styling" />
+		<param name="menuclass_sfx" type="text" default=""
+			label="Menu Class Suffix"
+			description="A suffix to be applied to the css class of the menu items" />
+		<param name="ordering" type="list" default="l_asc" label="Ordering" description="Ordering options: list order is the order specified in the VM Category Tree">
+			<option value="ordering">List Order</option>
+			<option value="category_name">Alphabetical Order</option>
+	  	</param>
+		<param name="level_start" type="text" default="0"
+			label="Start Level"
+			description="Level to start rendering the categories at" />
+		<param name="level_end" type="text" default="0"
+				label="End Level"
+				description="Level to stop rendering the categories at (if set to 0, it is ignored)" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" default=""
+					label="Module Class Suffix"
+					description="A suffix to be applied to the css class of the module (table.moduletable or div.moduletable), this allows individual module styling" />
+				<field name="menuclass_sfx" type="text" default=""
+					label="Menu Class Suffix"
+					description="A suffix to be applied to the css class of the menu items" />
+				<field name="ordering" type="list" default="l_asc" label="Ordering" description="Ordering options: list order is the order specified in the VM Category Tree">
+					<option value="ordering">List Order</option>
+					<option value="category_name">Alphabetical Order</option>
+				</field>
+				<field name="level_start" type="text" default="0"
+					label="Start Level"
+					description="Level to start rendering the categories at" />
+				<field name="level_end" type="text" default="0"
+						label="End Level"
+						description="Level to stop rendering the categories at (if set to 0, it is ignored)" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

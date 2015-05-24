@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+ <Document>
+  <atom:author>
+   <atom:name/>
+  </atom:author>
+  <name/>
+  <Style>
+   <IconStyle>
+    <href>http://maps.google.com/mapfiles/kml/pal4/icon46.png</href>
+   </IconStyle>
+   <BalloonStyle></BalloonStyle>
+  </Style>
+  <Placemark id="24">
+   <name>Ciputra A1</name>
+   <description><![CDATA[Restaurant in Bangalore, hotel in JC Nagar,]]></description>
+   <Point>
+    <coordinates>-22.850867,-22.850867,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/24/pro4.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=24">Trung Hòa Nhân Chính - Quận Thanh Xuân, 00084, Abbeville, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 4<br /><strong>Bathrooms:</strong> 2.00<br /><strong>Square FT:</strong> 80.00<br /><strong>Rooms:</strong> 5<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> Restaurant in Bangalore, hotel in JC Nagar,<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="19">
+   <name>Coral Gables Family Home</name>
+   <description><![CDATA[car mechanic wash rt rabindranath rehmat kausar chamundi tagore nagar car mechanic wash]]></description>
+   <Point>
+    <coordinates>51.693249,51.693249,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/19/pro5.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=19">15 Sun Street , 33133, Abbeville, Florida, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 4<br /><strong>Bathrooms:</strong> 4.00<br /><strong>Square FT:</strong> 400.00<br /><strong>Rooms:</strong> 6<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> car mechanic wash rt rabindranath rehmat kausar chamundi tagore nagar car mechanic wash<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="17">
+   <name>Miami lounge world</name>
+   <description><![CDATA[Located on New York City’s 7th Avenue, this accommodation is directly across the street from Madison Square Garden. The guestrooms at the Hotel Pennsylvania are newly decorated and include amenities like work desks, voicemail, climate control systems and satellite televisions.]]></description>
+   <Point>
+    <coordinates>19.829778,19.829778,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/17/pro4.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=17">1425 Brickell Av Unit: 48E , 33131 , Abbeville, Florida, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 3<br /><strong>Bathrooms:</strong> 6.00<br /><strong>Square FT:</strong> 400.00<br /><strong>Rooms:</strong> 8<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> Located on New York City’s 7th Avenue, this accommodation is directly across the street from Madison Square Garden. The guestrooms at the Hotel Pennsylvania are newly decorated and include amenities like work desks, voicemail, climate control systems and satellite televisions.<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="16">
+   <name>395 Dogwood Ln</name>
+   <description><![CDATA[If what you're looking for is a conveniently located hotel in New York (NY), look no further than Empire Hotel. From here, guests can enjoy easy access to all that the lively city has to offer. No less exceptional is the hotel's easy access to the city's myriad attractions and landmarks, such as David Rubenstein Atrium, New York State Theater, West Side YMCA.]]></description>
+   <Point>
+    <coordinates>37.386204,37.386204,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/16/pro3.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=16">5 Sinnamon Beach Way , 32137, Abbeville, US, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 7<br /><strong>Bathrooms:</strong> 3.00<br /><strong>Square FT:</strong> 100.00<br /><strong>Rooms:</strong> 12<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> If what you're looking for is a conveniently located hotel in New York (NY), look no further than Empire Hotel. From here, guests can enjoy easy access to all that the lively city has to offer. No less exceptional is the hotel's easy access to the city's myriad attractions and landmarks, such as David Rubenstein Atrium, New York State Theater, West Side YMCA.<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="15">
+   <name>Beach Front Vacation Rental</name>
+   <description><![CDATA[With a front row view to Times Square that’s truly incomparable, Row NYC Hotel guests reside right in the middle of it all, enjoying a completely contemporary experience with access to everything and anything – 24/7.]]></description>
+   <Point>
+    <coordinates>38.787623,38.787623,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/15/pro3.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=15">5 Sinnamon Beach Way , 32137, Abbeville, US, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 7<br /><strong>Bathrooms:</strong> 3.00<br /><strong>Square FT:</strong> 100.00<br /><strong>Rooms:</strong> 12<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> With a front row view to Times Square that’s truly incomparable, Row NYC Hotel guests reside right in the middle of it all, enjoying a completely contemporary experience with access to everything and anything – 24/7.<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="14">
+   <name>Beach Back with pool</name>
+   <description><![CDATA[Offering hotel guests superior services and a broad range of amenities, Intercontinental New York Times Square Hotel is committed to ensuring that your stay is as comfortable as possible. To name a few of the hotel's facilities, there are facilities for disabled guests, ATM/cash machine on site, bar, elevator, dry cleaning.]]></description>
+   <Point>
+    <coordinates>48.804541,48.804541,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/14/pro7.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=14">5 Sinnamon Beach Way , 32137, Abbeville, US, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 7<br /><strong>Bathrooms:</strong> 3.00<br /><strong>Square FT:</strong> 100.00<br /><strong>Rooms:</strong> 12<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> Offering hotel guests superior services and a broad range of amenities, Intercontinental New York Times Square Hotel is committed to ensuring that your stay is as comfortable as possible. To name a few of the hotel's facilities, there are facilities for disabled guests, ATM/cash machine on site, bar, elevator, dry cleaning.<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="13">
+   <name>Harbor Islands Intracoastal Waterway</name>
+   <description><![CDATA[Nestled in the heart of Times Square, Intercontinental New York Times Square Hotel is an ideal spot from which to discover New York (NY). From here, guests can enjoy easy access to all that the lively city has to offer. With the city's main attractions such as Majestic Theater, AMC Empire 25, Madame Tussaud's New York Inc within close reach, visitors to the hotel will just love its location.]]></description>
+   <Point>
+    <coordinates>38.897766,38.897766,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/13/pro3.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=13">1135 Hatteras Ln , 33019, Abbeville, US, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 5<br /><strong>Bathrooms:</strong> 4.00<br /><strong>Square FT:</strong> 80.00<br /><strong>Rooms:</strong> 8<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> Nestled in the heart of Times Square, Intercontinental New York Times Square Hotel is an ideal spot from which to discover New York (NY). From here, guests can enjoy easy access to all that the lively city has to offer. With the city's main attractions such as Majestic Theater, AMC Empire 25, Madame Tussaud's New York Inc within close reach, visitors to the hotel will just love its location.<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="12">
+   <name>Penthouse Sky Dream</name>
+   <description><![CDATA[Situated in Central Park - Upper West Side, Riverside Terrace New York is the perfect place to experience New York (NY) and its surroundings. Situated only 4 km from the city center, guests are well located to enjoy the town's attractions and activities. For sightseeing options and local attractions, one need not look far as the hotel enjoys close proximity to Children's Museum of Manhattan, Leat, Hayden Planetarium.]]></description>
+   <Point>
+    <coordinates>1.286086,1.286086,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/12/pro5.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=12">3535 S Ocean Dr Unit: Ph2603 , 33019, Abbeville, US, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 4<br /><strong>Bathrooms:</strong> 3.00<br /><strong>Square FT:</strong> 50.00<br /><strong>Rooms:</strong> 8<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> Situated in Central Park - Upper West Side, Riverside Terrace New York is the perfect place to experience New York (NY) and its surroundings. Situated only 4 km from the city center, guests are well located to enjoy the town's attractions and activities. For sightseeing options and local attractions, one need not look far as the hotel enjoys close proximity to Children's Museum of Manhattan, Leat, Hayden Planetarium.<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="11">
+   <name>Villa la Vitta</name>
+   <description><![CDATA[From here, guests can enjoy easy access to all that the lively city has to offer. With the city's main attractions such as Majestic Theater, AMC Empire 25, Madame Tussaud's New York Inc within close reach, visitors to the hotel will just love its location]]></description>
+   <Point>
+    <coordinates>-22.850867,-22.850867,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/11/pro7.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=11">1434 Commodore Wy , 33019 , Abbeville, US, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 2<br /><strong>Bathrooms:</strong> 2.00<br /><strong>Square FT:</strong> 30.00<br /><strong>Rooms:</strong> 5<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> From here, guests can enjoy easy access to all that the lively city has to offer. With the city's main attractions such as Majestic Theater, AMC Empire 25, Madame Tussaud's New York Inc within close reach, visitors to the hotel will just love its location<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+  <Placemark id="9">
+   <name>Open concept</name>
+   <description><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.]]></description>
+   <Point>
+    <coordinates>40.7585,40.7585,0</coordinates>
+   </Point>
+   <Style>
+    <IconStyle>
+     <Icon>
+      <href>http://localhost/dam/images/osproperty/properties/9/pro1.jpg</href>
+     </Icon>
+    </IconStyle>
+    <BalloonStyle>
+     <text><![CDATA[<div style="width: 670px;">
+								<table width="100%" cellspacing="0" cellpadding="5">
+								<tr>
+								<td valign="top" style="width: 180px; border-right: solid 1px #ccc;">
+								<div style="padding-bottom: 5px;"><img src="http://localhost/dam/media/com_osproperty/agents/" alt="Sample Agent" width="78" style="border: solid 1px #666; margin-bottom: 5px;" />
+								</div>
+								<div style="font-size: 11px; padding-top: 5px; border-top: solid 1px #ccc;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=agent_info&id=1" style="color: #ff0000; text-decoration: none; font-size: 12px; font-weight: bold;">Sample Agent</a><br /><img src="http://localhost/dam/components/com_osproperty/assets/images/icon-email.gif" />agent@osproperty.com<br /></div>
+								</td>
+								<td valign="top" style="width: 470px;">
+								<div style="border-bottom: solid 1px #ccc; padding: 0 10px 5px 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+								<a href="http://localhost/dam/index.php?option=com_osproperty&task=property_details&id=9">35 Ngõ 10 Láng Hạ, Thành Công, 00084, Abbeville, , United States</a>
+								</div>
+								<div><strong>Bedrooms:</strong> 3<br /><strong>Bathrooms:</strong> 2.00<br /><strong>Square FT:</strong> 40.00<br /><strong>Rooms:</strong> 5<br /></span></div>
+								<div style="padding-top: 10px; clear: both;">
+								<strong>Property Description:</strong><br /> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br />
+								</div>
+								</td>
+								</tr>
+								</table>
+								</div>]]></text>
+    </BalloonStyle>
+   </Style>
+  </Placemark>
+ </Document>
+</kml>

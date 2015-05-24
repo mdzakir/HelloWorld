@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Layout: List all agents">
+		<message>
+			<![CDATA[List all agents.]]>
+		</message>
+	</layout>
+	<state>
+		<fields name="request">
+			<fieldset name="request">
+				<field name="usertype" type="list" default="" label="List Agent/Owner" description="What are types of user that you want to show at the list">
+					<option value="">All</option>
+					<option value="0">Agent</option>
+					<option value="1">Owner</option>
+				</field>
+				<field name="default_sortby" type="list" default="" label="Default Sort By" description="Please select Default sorting by">
+					<option value="rand()">Random</option>
+					<option value="a.name">Name</option>
+					<option value="a.ordering">Ordering</option>
+					<option value="a.featured">Featured</option>
+				</field>
+				<field name="default_orderby" type="list" default="" label="Default Order By" description="Please select Default order by">
+					<option value="asc">Ascending</option>
+					<option value="desc">Descending</option>
+				</field>
+			</fieldset>
+		</fields>
+		<fields name="params">
+			<!-- Basic options. -->
+			
+		</fields>
+	</state>
+</metadata>

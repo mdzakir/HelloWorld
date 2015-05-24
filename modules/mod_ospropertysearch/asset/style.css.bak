@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+.elementdiv{
+	padding:3px;
+}
+.elementlabel{
+	width:80px;
+}
+
+.mod_ossearch_left_col{
+	width:30%;
+	text-align:left;
+	padding-top:2px;
+	padding-bottom:2px;
+	vertical-align:top
+}
+
+.mod_ossearch_right_col{
+	width:100%;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:15px;
+}
+
+.ospsearch_ul{
+	background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    margin: 5px 0 0;
+    padding: 0;
+	width:100%;
+	list-style: outside none none;
+}
+
+.ospsearch_ul li {
+    line-height: 20px;
+}
+
+.ospsearch_ul > li:first-child > a {
+    border-radius: 6px 6px 0 0;
+}
+
+.ospsearch_ul > li:last-child {
+    border-radius: 0 0 6px 6px;
+	border: 1px solid #e5e5e5;
+}
+
+.ospsearch_ul > li > a {
+    border: 1px solid #e5e5e5;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+	font-size:15px;
+}
+
+.ospsearch_div{
+	padding-top:10px;
+	padding-bottom:10px;
+	border-left:	1px solid #e5e5e5;
+	border-right:	1px solid #e5e5e5;
+	padding-left:5px;
+}
+
+.ospsearch_ul .icon-chevron-down, .ospsearch_ul .osicon-chevron-down,.ospsearch_ul .icon-chevron-up, .ospsearch_ul .osicon-chevron-up{
+    float: right;
+    margin-right: -6px;
+    margin-top: 2px;
+    opacity: 0.25;
+}
+
+.hiddendiv{
+	display:none;
+}
+
+.blockdiv{
+	display:block;
+}
+
+.ospsearch_submit{
+	padding:15px;
+}
+
+.advlink{
+	padding:0px !important;
+	margin:0px !important;
+	border:0px !important;
+	display:inline !important;
+}
