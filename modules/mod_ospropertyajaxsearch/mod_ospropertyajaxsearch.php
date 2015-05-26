@@ -49,7 +49,7 @@ $searchformurl.= "&ordering=$ordering&show_introtext=$show_introtext&show_addres
 
 
 $ossearchform		= $params->get('form_width','170');
-$number_property 	= $params->get('number_item',3);
+$number_property 	= $params->get('number_item',10);
 $min_chars 			= $params->get('number_characters',2);
 $scrolling 			= $params->get('mouse_scroll',1);
 $resultwidth 		= $params->get('result_width',250);
@@ -57,7 +57,7 @@ $search_caption 	= JText::_('OS_SEARCH_CAPTION');
 $no_matches 		= JText::_('OS_NO_MATCHES_CAPTION');
 $no_matches_caption = JText::_('OS_NO_MATCHES_TITLE_CAPTION');
 $show_desc 			= 1;
-$element_height		= $params->get('element_height','90');
+$element_height		= $params->get('element_height','10');
 
 $document->addScriptDeclaration("
 dojo.addOnLoad(function(){

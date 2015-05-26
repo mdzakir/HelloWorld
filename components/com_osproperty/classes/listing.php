@@ -1,4 +1,5 @@
-<?php
+<?php 
+//rizwan
 /*------------------------------------------------------------------------
 # listing.php - Ossolution Property
 # ------------------------------------------------------------------------
@@ -5735,8 +5736,8 @@ class OspropertyListing{
 		$db = JFactory::getDBO();
 		$keyword = OSPHelper::getStringRequest('search_exp','','');
 		$keyword = $db->escape($keyword);
-		
-		$keyword = str_replace(array(' the ',' be ',' to ',' of ',' and ',' a ',' in ',' that ',' have ',' for ',' not ',' on ',' with ',' as ',' at ',' by ',' from ',' or ',' an ',' into ',' only '), ' ',$keyword);
+		$keyword.=" ";
+		$keyword = str_replace(array(' near ', '&',' the ',' be ',' to ',' of ',' and ',' a ',' in ',' that ',' have ',' for ',' not ',' on ',' with ',' as ',' at ',' by ',' from ',' or ',' an ',' into ',' only '), ' ',$keyword);
 		$keyword = trim(preg_replace('/\s\s+/', ' ', str_replace("\n", " ", $keyword)));
 		$search_array = explode(" ", $keyword);
 		$keyword = str_replace(" ","%",$keyword);
@@ -5816,12 +5817,51 @@ class OspropertyListing{
 			 $db->setQuery("select * from #__osrs_configuration");
 			 $configs = $db->loadObjectList();
 			 
-			 		$db->setQuery("Select category_name from #__osrs_categories where published = '1' AND category_name LIKE '%$keyword%' order by ordering ");
-			 		$categories = $db->loadObjectList();
-			 		if(count($categories) > 0){
+			$strQuery = "SELECT DISTINCT KEYWORD FROM ";
+			$strQuery.= "((SELECT DISTINCT B.category_name AS KEYWORD ";
+			$strQuery.= "FROM #__osrs_properties A, #__osrs_categories B ";
+			$strQuery.= "WHERE A.category_id = B.id AND B.category_name LIKE '%".implode("%' AND B.category_name LIKE '%",$search_array)."%' ";
+			$strQuery.= "LIMIT 3)  ";
+			$strQuery.= "UNION ALL ";
+			$strQuery.= "(SELECT DISTINCT CONCAT_WS(', ', field_label, B.category_name) AS KEYWORD ";
+			$strQuery.= "FROM #__osrs_properties A, #__osrs_categories B, #__osrs_extra_fields C, #__osrs_property_field_value D ";
+			$strQuery.= "WHERE A.category_id = B.id AND A.id=D.pro_id AND D.field_id = C.id  AND  ";
+			$strQuery.= "CONCAT_WS(', ', field_label, B.category_name) LIKE '%".implode("%' AND CONCAT_WS(', ', field_label, B.category_name) LIKE '%",$search_array)."%' ";
+			$strQuery.= "LIMIT 3)  ";
+			$strQuery.= "UNION ALL ";
+			$strQuery.= "(SELECT DISTINCT CONCAT_WS(' in ', B.category_name, CONCAT_WS(', ', E.city, F.state_name)) AS KEYWORD ";
+			$strQuery.= "FROM #__osrs_properties A, #__osrs_categories B, #__osrs_cities E, #__osrs_states F ";
+			$strQuery.= "WHERE A.category_id = B.id AND A.city=E.id AND E.state_id = F.id AND ";
+			$strQuery.= "CONCAT_WS(' in ', B.category_name, CONCAT_WS(', ', E.city, F.state_name)) LIKE '%".implode("%' AND CONCAT_WS(' in ', B.category_name, CONCAT_WS(', ', E.city, F.state_name)) LIKE '%",$search_array)."%' ";
+			$strQuery.= "LIMIT 3)  ";
+			$strQuery.= "UNION ALL ";
+			$strQuery.= "(SELECT DISTINCT CONCAT_WS(' in ', CONCAT_WS(', ', field_label, B.category_name), CONCAT_WS(', ', E.city, F.state_name)) AS KEYWORD ";
+			$strQuery.= "FROM #__osrs_properties A, #__osrs_categories B, #__osrs_extra_fields C, #__osrs_property_field_value D, #__osrs_cities E, #__osrs_states F ";
+			$strQuery.= "WHERE A.category_id = B.id AND A.id=D.pro_id AND D.field_id = C.id AND E.state_id = F.id AND A.city = E.id ";
+			$strQuery.= "AND CONCAT_WS(' in ', CONCAT_WS(', ', field_label, B.category_name), CONCAT_WS(', ', E.city, F.state_name)) LIKE '%".implode("%' AND CONCAT_WS(' in ', CONCAT_WS(', ', field_label, B.category_name), CONCAT_WS(', ', E.city, F.state_name)) LIKE '%",$search_array)."%' ";
+			$strQuery.= "LIMIT 3)  ";
+			$strQuery.= "UNION ALL ";
+			$strQuery.= "(SELECT CONCAT_WS(', ', pro_name, E.city, F.state_name) AS KEYWORD ";
+			$strQuery.= "FROM #__osrs_properties A, #__osrs_cities E, #__osrs_states F ";
+			$strQuery.= "WHERE A.city=E.ID AND E.state_id=F.id AND ";
+			$strQuery.= "CONCAT_WS(', ', pro_name, E.city, F.state_name) LIKE '%".implode("%' AND CONCAT_WS(', ', pro_name, E.city, F.state_name) LIKE '%",$search_array)."%' ";
+			$strQuery.= "LIMIT 3)  ";
+			$strQuery.= ") ABC; ";
+			 
+			 		$db->setQuery($strQuery);
+			 		$metadata = $db->loadObjectList();
+					
+					for($i=0;$i<count($metadata);$i++){
+						$meta = $metadata[$i];
+						$metadata_name = OSPHelper::getLanguageFieldValue($meta,'KEYWORD');
+						$results[$category_list][$i]->text = $metadata_name;
+					}
+					
+			 		/*if(count($categories) > 0){
 			 			for($i=0;$i<count($categories);$i++){
 			 				$category = $categories[$i];
-			 				$category_name = OSPHelper::getLanguageFieldValue($category,'category_name');
+							$category_name = OSPHelper::getLanguageFieldValue($category,'category_name');
+							
 			 				$results[$category_list][$i]->text = $category_name;
 							
 		/*					$query1[] = " a.pro_small_desc$lang_suffix LIKE '%".implode("%' AND a.pro_small_desc$lang_suffix LIKE '%",$search_array)."%' or a.pro_full_desc$lang_suffix like '%$keyword%'";
@@ -5840,9 +5880,9 @@ class OspropertyListing{
 				  	  	  	   		$results[$category_name][$j]->title = $title;
 				  	  	  	   		$results[$category_name][$j]->href  = JRoute::_("index.php?option=com_osproperty&task=property_details&id=$row->id&Itemid=".JRequest::getInt('Itemid',0));
 				  	  	  	   }
-				  	  	    }*/
+				  	  	    }
 			 			}
-			 		}
+			 		}*/
 			 }
 		 	 
 		  	 print_r(json_encode($results));

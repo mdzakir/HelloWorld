@@ -24,7 +24,7 @@
 				<field
 					name="number_item"
 					type="text"
-					default="3"
+					default="10"
 					label="Properties per search item"
 					description="Number properties per search item(category, property type, country) at the dropdown result" class="input-mini"/>
 				<field
@@ -184,7 +184,7 @@
 				<field
 					name="element_height"
 					type="text"
-					default="67"
+					default="12"
 					label="Result element height (px)"
 					description="Result element height (px)" class="input-mini" />
 

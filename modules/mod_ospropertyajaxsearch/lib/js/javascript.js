@@ -80,6 +80,7 @@ autofill: function(e){
     if((evt.keyCode>40 || evt.keyCode==32 || evt.keyCode==8) && this.textBox.value.length >=this.minChars){
       dojo.style(this.closeButton, "visibility", "hidden");
       dojo.addClass(this.textBox, "search-area-loading");
+
       dojo.xhrGet({
           url : this.searchFormUrl,
           content: { option: "com_osproperty", format: "raw", search_exp: this.textBox.value },
@@ -87,6 +88,8 @@ autofill: function(e){
           preventCache : true,
           load: dojo.hitch(this,'processResult')
       });
+	  
+	  setTimeout(function (){}, 1000); 
       
     }
   },
