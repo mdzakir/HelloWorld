@@ -40,7 +40,7 @@ dojo.declare("OSPajaxsearching", null, {
       dojo.attr(this.textBox, "value", this.searchBoxCaption);
       dojo.addClass(this.textBox, "search-caption-on");
 	  dojo.connect(this.textBox,'onkeyup',this,'type');
-//	  dojo.connect(this.textBox,'onkeydown',this,'autofill');
+	  dojo.connect(this.textBox,'onkeydown',this,'autofill');
 	  dojo.connect(this.textBox,'onfocus',this,'textBoxFocus');
 	  dojo.connect(this.textBox,'onblur',this,'textBoxBlur');
 	  dojo.connect(this.closeButton,'onclick',this,'closeResults');
@@ -67,11 +67,13 @@ dojo.declare("OSPajaxsearching", null, {
 autofill: function(e){
 	
     if (e.keyCode == 40) {
-		alert (this.list[0]);
+		//alert (this.list[0]);
+    //alert(this.list[this.selected+1].item.label);
 		//alert(1);
 		//alert(this.list[this.selected+1].item.label);
 	//	$('#ajaxvmsearcharea').val(this.list[this.selected+1].item.label);
       //$('#ajaxvmsearcharea').val());
+    
     }
 
 },
@@ -211,7 +213,7 @@ autofill: function(e){
       var atag = null;
       var introText="";
       //if (this.showIntroText==1 && pluginResults[j].text){
-        introText = '<p class="" style="text-align:left;font-weight:normal;font-size:11px;padding:0px;margin:0px;text-decoration:none !important;">'+pluginResults[j].text+'</p>'; 
+        introText = '<p class="res-text" style="text-align:left;font-weight:normal;font-size:13px;padding:0px 10px;margin:0px;text-decoration:none !important;">'+pluginResults[j].text+'</p>'; 
       //}
       //if(pluginResults[j].pimage){ //Virtuemart products
       //  atag = dojo.create("a", {'class': "result-element result-products", innerHTML: pluginResults[j].pimage+'<p style="text-align:left !important;padding:0px;margin:0px;font-size:12px;">'+pluginResults[j].title+'</p>'+introText, href:pluginResults[j].href}, page);
@@ -317,13 +319,14 @@ autofill: function(e){
         this.selectItem(this.selected-1);
       }else if (evt.keyCode==40){
 		this.selectItem(this.selected+1);
-		dojo.attr(this.textBox, "value", "label");
+		dojo.attr(this.textBox, "value", dojo.query('.selected-element p')[0].lastChild.textContent);
 		
       }else if (evt.keyCode==13){
         if(this.selected==0){
           this.loadResult();
         }else{
           document.location.href = dojo.attr(this.list[this.selected-1],"href");
+          //alert(document.location.href);
         }
       }
       
@@ -381,6 +384,7 @@ autofill: function(e){
     }
     if(this.list[num-1]){
       dojo.addClass(this.list[num-1], "selected-element");
+      dojo.attr(this.textBox, "value", dojo.query('.selected-element p')[0].lastChild.textContent);
     }
     this.selected=num;
 //      console.log(num);
